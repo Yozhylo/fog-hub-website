@@ -1,0 +1,56 @@
+body
+	{
+		font-family:"roboto mono";
+		/*background-image:url("https://media.giphy.com/media/xT0xeJpnrWC4XWblEk/giphy.gif");*/
+		background-size:cover;
+		background-repeat:no-repeat;
+	}
+.link
+	{
+		color:darkmagenta;
+	}
+.link:hover
+	{
+  	color:chartreuse;
+  	background-color:darkmagenta;
+	}
+.flex-container
+	{
+		display:flex;
+		flex-direction:column;
+		justify-content:center;
+		align-items:center;
+		align-content:center;
+	}	  
+.flex-container-contacts 
+	{
+		display:flex;
+	  flex:0 0 50px;
+	  flex-direction:row;
+	  justify-content:space-between;
+	  align-items:center;
+
+	  background-color:lightgray;
+	  border:2px solid darkgray;
+	  text-align:center;
+  }
+.flex-contacts-items
+	{
+		margin:25px 50px 25px 50px;
+	}
+.flex-container-panel-top
+	{
+	  display:flex;
+	  flex-direction:row;
+  	justify-content:space-between;
+	}
+.flex-panel-top-items
+	{
+		margin:0 5% 0 5%;
+	}
+.panel-main
+	{
+		flex:4 1 50vh;
+		text-align:center;
+	}
+/*В ПРОЦЕССЕ*/
