@@ -1,18 +1,18 @@
 @font-face {
 	font-family: 'Guru';
-	src:url('./fonts/Guru.woff') format('woff');
+	src: url('styles/fonts/Guru.woff') format('woff');
 		font-weight: normal;
 		font-style: normal;
 }
 @font-face {
 	font-family: 'Cronos Pro Display';
-	src:url('./fonts/Cronos-Pro-Display.woff') format('woff');
+	src: url('styles/fonts/Cronos-Pro-Display.woff') format('woff');
 		font-weight: normal;
 		font-style: normal;
 }
 @font-face {
 	font-family: 'Adamina Regular';
-	src: url('./fonts/Adamina-Regular.woff') format('woff');
+	src: url('styles/fonts/Adamina-Regular.woff') format('woff');
 		font-weight: normal;
 		font-styles: normal;
 }
