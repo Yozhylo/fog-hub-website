@@ -1,0 +1,48 @@
+@font-face {
+	font-family: 'Guru';
+	src:url('./fonts/Guru.woff') format('woff');
+		font-weight: normal;
+		font-style: normal;
+}
+@font-face {
+	font-family: 'Cronos Pro Display';
+	src:url('./fonts/Cronos-Pro-Display.woff') format('woff');
+		font-weight: normal;
+		font-style: normal;
+}
+@font-face {
+	font-family: 'Adamina Regular';
+	src: url('./fonts/Adamina-Regular.woff') format('woff');
+		font-weight: normal;
+		font-styles: normal;
+}
+@keyframes fadeIn {
+	from {opacity: 0;}
+	to {opacity: 100;}
+}
+
+body {
+	display: flex;
+	flex-direction: column;
+	font-family: 'Adamina Regular';
+  background-image: url(/img/background.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	color: blanchedalmond;
+}
+.small {
+	font-family: 'Cronos Pro Display';
+}
+.big {
+	font-family: Guru;
+}
+
+.logo {
+	animation: fadeIn 5s;
+	flex: 0 0 512px;
+	flex-direction: column;
+}
+.logo-text {
+	animation: fadeIn 5s;
+	text-align: center;
+}
